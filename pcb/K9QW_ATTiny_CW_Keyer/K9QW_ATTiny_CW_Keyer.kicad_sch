@@ -3326,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 137.16) (xy 243.84 137.16)
+			(xy 238.76 137.16) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3626,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 137.16) (xy 229.87 137.16)
+			(xy 228.6 137.16) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6176,7 +6176,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 233.68 137.16 0)
+		(at 234.95 137.16 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6185,7 +6185,7 @@
 		(dnp no)
 		(uuid "8e948e4a-d41c-418e-882b-968f97c94cca")
 		(property "Reference" "D2"
-			(at 235.2675 130.81 0)
+			(at 236.5375 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6193,7 @@
 			)
 		)
 		(property "Value" "Side LED"
-			(at 235.2675 133.35 0)
+			(at 236.5375 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 233.68 137.16 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 137.16 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6219,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 233.68 137.16 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
