@@ -3103,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 24.13) (xy 242.57 24.13)
+			(xy 240.03 31.75) (xy 242.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3613,6 +3613,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 86.36) (xy 55.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a08fcd-8ca6-46e1-a74f-b9d9dc4fbc4d")
+	)
+	(wire
+		(pts
 			(xy 210.82 24.13) (xy 213.36 24.13)
 		)
 		(stroke
@@ -3673,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 52.07) (xy 242.57 52.07)
+			(xy 241.3 59.69) (xy 242.57 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3923,6 +3933,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cf01c0-afdb-4228-828a-4efdcc4968bd")
+	)
+	(wire
+		(pts
 			(xy 105.41 156.21) (xy 127 156.21)
 		)
 		(stroke
@@ -3960,16 +3980,6 @@
 			(type default)
 		)
 		(uuid "e92f03c8-62b1-471e-84a0-fa3104a7ccd5")
-	)
-	(wire
-		(pts
-			(xy 60.96 86.36) (xy 64.77 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b9910e-f15a-4342-8cca-3d0b715bc0c9")
 	)
 	(wire
 		(pts
@@ -4884,7 +4894,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3521e21c-6388-4822-a482-3df2c23528e1")
 		(property "Reference" "J3"
 			(at 232.41 81.2799 0)
@@ -4948,7 +4957,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 247.65 54.61 0)
+		(at 247.65 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4957,15 +4966,6 @@
 		(fields_autoplaced yes)
 		(uuid "366e5dd2-cff2-49de-9e27-a58cc46f297a")
 		(property "Reference" "J7"
-			(at 250.19 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Key Output"
 			(at 250.19 55.8799 0)
 			(effects
 				(font
@@ -4974,8 +4974,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "Key Output"
+			(at 250.19 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 247.65 54.61 0)
+			(at 247.65 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 54.61 0)
+			(at 247.65 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +5002,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 54.61 0)
+			(at 247.65 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5304,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 247.65 26.67 0)
+		(at 247.65 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5304,15 +5313,6 @@
 		(fields_autoplaced yes)
 		(uuid "4ba70507-021e-4483-aee4-c2fb501358bd")
 		(property "Reference" "J6"
-			(at 250.19 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Paddle Input"
 			(at 250.19 27.9399 0)
 			(effects
 				(font
@@ -5321,8 +5321,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "Paddle Input"
+			(at 250.19 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 247.65 26.67 0)
+			(at 247.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 26.67 0)
+			(at 247.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5349,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 247.65 26.67 0)
+			(at 247.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +6137,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 86.36 270)
+		(at 54.61 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6137,7 +6146,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fc6b665-abf2-4b76-95ad-6b4ea20d50b3")
 		(property "Reference" "#PWR016"
-			(at 54.61 86.36 0)
+			(at 48.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 86.3599 90)
+			(at 50.8 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 86.36 0)
+			(at 54.61 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +6173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 86.36 0)
+			(at 54.61 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 86.36 0)
+			(at 54.61 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 69.85 88.9 0)
 			(effects
 				(font
@@ -6336,7 +6345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 24.13 270)
+		(at 240.03 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6345,7 +6354,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ac5e7b5-f5c9-4594-86bd-5dcc51b368d0")
 		(property "Reference" "#PWR017"
-			(at 233.68 24.13 0)
+			(at 233.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 24.1299 90)
+			(at 236.22 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 24.13 0)
+			(at 240.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 24.13 0)
+			(at 240.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 24.13 0)
+			(at 240.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 52.07 270)
+		(at 241.3 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6550,7 +6559,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b8abc92-85d4-46b4-9e28-f455dc479f35")
 		(property "Reference" "#PWR018"
-			(at 234.95 52.07 0)
+			(at 234.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 52.0699 90)
+			(at 237.49 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 52.07 0)
+			(at 241.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 52.07 0)
+			(at 241.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 52.07 0)
+			(at 241.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,6 +7945,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 59.69 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa9489ea-59a0-4173-a702-09594087e3e2")
+		(property "Reference" "R7"
+			(at 59.69 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 59.69 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 59.69 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0e01ba7-cd7a-4b4e-b073-d5da3381fee6")
+		)
+		(pin "2"
+			(uuid "523f163b-4012-4705-8699-2457a1b1add1")
+		)
+		(instances
+			(project "K9QW_ATTiny_CW_Keyer"
+				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 229.87 106.68 0)
 		(unit 1)
@@ -7943,7 +8020,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbee6a92-0d8f-47ae-acb9-cb8764f5e0d1")
 		(property "Reference" "J4"
 			(at 232.41 106.6799 0)
