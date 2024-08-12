@@ -3066,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 125.73) (xy 203.2 135.89)
+			(xy 205.74 125.73) (xy 205.74 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3516,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 135.89) (xy 193.04 135.89)
+			(xy 205.74 135.89) (xy 193.04 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3656,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 137.16) (xy 212.09 137.16)
+			(xy 212.09 137.16) (xy 214.63 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 125.73) (xy 203.2 125.73)
+			(xy 245.11 125.73) (xy 205.74 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3776,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 137.16) (xy 223.52 137.16)
+			(xy 222.25 137.16) (xy 223.52 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5158,7 +5158,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Key"
 			(at 196.85 132.3974 90)
 			(effects
 				(font
@@ -5488,7 +5488,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 210.82 137.16 90)
+		(at 212.09 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5496,7 +5496,7 @@
 		(dnp no)
 		(uuid "64dd94df-e670-4271-8da6-75a432136d4e")
 		(property "Reference" "#PWR020"
-			(at 214.63 137.16 0)
+			(at 215.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5505,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 205.74 137.16 0)
+			(at 207.01 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 137.16 0)
+			(at 212.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 137.16 0)
+			(at 212.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 210.82 137.16 0)
+			(at 212.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6192,7 @@
 				)
 			)
 		)
-		(property "Value" "Side LED"
+		(property "Value" "Sidetone"
 			(at 231.4575 133.35 0)
 			(effects
 				(font
@@ -7712,7 +7712,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 137.16 270)
+		(at 218.44 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7721,7 +7721,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe0c8777-cd16-4d48-96bb-610a70a7114d")
 		(property "Reference" "R6"
-			(at 215.9 130.81 90)
+			(at 218.44 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7729,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 215.9 133.35 90)
+			(at 218.44 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7737,7 +7737,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 215.9 135.382 90)
+			(at 218.44 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,7 +7746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 137.16 0)
+			(at 218.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7755,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 137.16 0)
+			(at 218.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
