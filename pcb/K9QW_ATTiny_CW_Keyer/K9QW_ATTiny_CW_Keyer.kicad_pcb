@@ -562,7 +562,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at -2.6162 0 360)
+			(at -2.6162 0 0)
 			(layer "F.SilkS")
 			(uuid "c721ecf4-7afc-4420-bf88-2e85d457f31c")
 			(effects
@@ -573,7 +573,7 @@
 			)
 		)
 		(property "Value" "8.2R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "284555bc-3909-485d-a570-02d4d9b6b15b")
 			(effects
@@ -728,7 +728,7 @@
 			(uuid "9b02cfe8-86ed-419b-9b78-f062f101a915")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4b536d95-129a-4a39-aa8c-76135febde0b")
 			(effects
@@ -988,7 +988,7 @@
 		(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320D-72.html)")
 		(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
 		(property "Reference" "J2"
-			(at -0.7618 0 360)
+			(at -0.7618 0 0)
 			(layer "F.SilkS")
 			(uuid "9c6dc5a4-bdac-476f-86b7-4fe0a44e7965")
 			(effects
@@ -999,7 +999,7 @@
 			)
 		)
 		(property "Value" "AudioJack4"
-			(at -0.025 6.35 360)
+			(at -0.025 6.35 0)
 			(layer "F.Fab")
 			(uuid "49f62f24-c546-4360-8bfd-3a90fe168752")
 			(effects
@@ -1315,7 +1315,7 @@
 			(uuid "0d6794d2-abcc-40b2-91e5-8f962b6f8664")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.195 0 360)
+			(at -1.195 0 0)
 			(layer "F.Fab")
 			(uuid "d5ba7ec6-73a1-4bce-a304-e9a51f5257d9")
 			(effects
@@ -1603,7 +1603,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 2.6162 0 360)
+			(at 2.6162 0 0)
 			(layer "F.SilkS")
 			(uuid "831e12b8-4025-4565-ba58-51bef87ffaad")
 			(effects
@@ -1614,7 +1614,7 @@
 			)
 		)
 		(property "Value" "20uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9b6c67a6-5993-4206-ad96-e547cc059912")
 			(effects
@@ -1769,7 +1769,7 @@
 			(uuid "a3be3534-0eb3-4711-a7c8-9b2cb92e15db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7cc60836-e967-4bcf-a054-291519010b12")
 			(effects
@@ -1816,7 +1816,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at 0 2.479 360)
+			(at 0 2.479 0)
 			(layer "F.SilkS")
 			(uuid "1e9c1e20-8808-4062-9848-44432862896d")
 			(effects
@@ -1827,7 +1827,7 @@
 			)
 		)
 		(property "Value" "MMBT3904"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3053a64e-027f-4a4d-985e-b392196ddb3b")
@@ -2025,7 +2025,7 @@
 			(uuid "4712e75c-d298-4192-865d-df6f33d17156")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3c1a8636-c12e-4253-8248-684daad1a31a")
 			(effects
@@ -2978,7 +2978,7 @@
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW2"
-			(at 3.155 2.197 360)
+			(at 3.155 2.197 0)
 			(layer "F.SilkS")
 			(uuid "6cadab57-b6a3-441e-af3e-e3c459ac18a3")
 			(effects
@@ -2989,7 +2989,7 @@
 			)
 		)
 		(property "Value" "Command"
-			(at 3.75 6.7 360)
+			(at 3.75 6.7 0)
 			(layer "F.Fab")
 			(uuid "c6247cdd-c784-4a3a-9d53-3c6f2964688b")
 			(effects
@@ -3264,7 +3264,7 @@
 			(uuid "629fdfee-74ec-4457-8e1e-12b19a8d1e2a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.25 2.25 360)
+			(at 3.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "b5184b8f-33bc-4153-a708-87acb65e1bc8")
 			(effects
@@ -3337,7 +3337,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at -2.5908 0 360)
+			(at -2.5908 0 0)
 			(layer "F.SilkS")
 			(uuid "8b6371be-d721-4468-80d6-bea3c884e6c4")
 			(effects
@@ -3348,7 +3348,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "ac4c15d3-aa19-490a-93e1-f0e084fe4b07")
 			(effects
@@ -3503,7 +3503,7 @@
 			(uuid "76bc235d-6668-4714-8e0c-655e197841bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "059fe1b6-38be-47ac-9454-5e4eb1505439")
 			(effects
@@ -4050,7 +4050,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2c7af1a2-2ec3-46c0-9242-75766c59b9e4")
 			(effects
@@ -4205,7 +4205,7 @@
 			(uuid "a04df8d9-672f-4e50-b8eb-5036ccfe4440")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "064179c3-0ecb-4808-a203-a20c23de9d31")
 			(effects
@@ -4732,7 +4732,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP4"
-			(at 3.0226 0 360)
+			(at 3.0226 0 0)
 			(layer "F.SilkS")
 			(uuid "27ee2847-1387-41fa-9b60-11e22bbf9e86")
 			(effects
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Value" "Bypass Sidetone LPF"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "716e1b20-2583-4a77-b4e1-cb89a9503f7a")
 			(effects
@@ -5015,7 +5015,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 2.7175 -0.0508 360)
+			(at 2.7175 -0.0508 0)
 			(layer "F.SilkS")
 			(uuid "d2c9cd3d-53dd-4eea-a092-8b17b79006e8")
 			(effects
@@ -5026,7 +5026,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "679845ea-f6ff-4870-afd7-9f51989ba4f1")
 			(effects
@@ -5181,7 +5181,7 @@
 			(uuid "9b5efbf3-6948-4cfe-b05c-5cab45ba96f3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0783b398-68bc-404e-b8df-17a33bf6f88c")
 			(effects
@@ -6035,7 +6035,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at -2.6924 0 360)
+			(at -2.6924 0 0)
 			(layer "F.SilkS")
 			(uuid "7c504f7f-84ab-4eab-a5cd-fc609dcae093")
 			(effects
@@ -6046,7 +6046,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "212c5ea9-5442-447f-a872-a3a7fc17e0da")
 			(effects
@@ -6201,7 +6201,7 @@
 			(uuid "b88fe97f-100f-4f66-9768-0e846fe57158")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a7a3b269-ea89-4c0c-8ece-19df68fed4eb")
 			(effects
@@ -7941,7 +7941,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "61020000-1a08-448a-acf2-2ef372049f56")
 			(effects
@@ -7952,7 +7952,7 @@
 			)
 		)
 		(property "Value" "Bypass Polarity Protection"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "454fea05-6ac6-4b16-bc40-b4425c835b89")
 			(effects
@@ -8211,7 +8211,7 @@
 		(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320D-72.html)")
 		(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
 		(property "Reference" "J3"
-			(at 0.0002 0 360)
+			(at 0.0002 0 0)
 			(layer "F.SilkS")
 			(uuid "5c9a6cd9-abf3-4513-b32d-f5aada2cc1ca")
 			(effects
@@ -8222,7 +8222,7 @@
 			)
 		)
 		(property "Value" "AudioJack4"
-			(at -0.025 6.35 360)
+			(at -0.025 6.35 0)
 			(layer "F.Fab")
 			(uuid "d03034f6-50b0-45ec-8169-bb5367585a3c")
 			(effects
@@ -8538,7 +8538,7 @@
 			(uuid "1c628903-8920-4a59-91ef-e11f02cb2e75")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.195 0 360)
+			(at -1.195 0 0)
 			(layer "F.Fab")
 			(uuid "4a24b36a-ca68-474c-ba2d-f94a39c3bdda")
 			(effects
@@ -8613,7 +8613,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at 0.014 1.651 360)
+			(at 0.014 1.651 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "20679c45-89be-4961-b169-2c7535c6eff8")
@@ -8625,7 +8625,7 @@
 			)
 		)
 		(property "Value" "Key LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "17984c1f-45fd-4b62-8b5b-5e5a7448a55d")
 			(effects
@@ -8800,7 +8800,7 @@
 			(uuid "398af63c-7fd7-467b-9b57-40d90eaa3505")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9e1e03f8-f703-4a8c-a2f9-016519da464c")
 			(effects
@@ -8849,7 +8849,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0.0011 -1.4224 360)
+			(at 0.0011 -1.4224 0)
 			(layer "F.SilkS")
 			(uuid "8eb0d45c-1cfd-4bbc-bb62-a3c02db69ad6")
 			(effects
@@ -8860,7 +8860,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "24f011df-c6a5-4756-8f44-8e8c042bb206")
 			(effects
@@ -9015,7 +9015,7 @@
 			(uuid "39616e73-7d1b-44aa-b535-d6010405769a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4027fe11-d5db-4038-aed6-86eee8ed9a04")
 			(effects
@@ -9062,7 +9062,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D3"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9579c9ed-2003-4e89-8598-3a395a08f04d")
@@ -9074,7 +9074,7 @@
 			)
 		)
 		(property "Value" "Sidetone LED"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "502d312c-14a8-4a2d-8e3c-f70a3aa67f23")
 			(effects
@@ -9249,7 +9249,7 @@
 			(uuid "a56278fd-0461-4ba9-9f32-6603345de8b2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bd1173d3-1ba3-4020-a68f-5a3cf1b05e13")
 			(effects
@@ -9511,7 +9511,7 @@
 			(uuid "d5463bbd-5209-4e5b-9ec9-76c58ac4410b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8b56988b-cfcd-47b2-ba08-1fe3d018a320")
 			(effects
@@ -9581,7 +9581,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at -2.7432 0 360)
+			(at -2.7432 0 0)
 			(layer "B.SilkS")
 			(uuid "7bbd4f4c-98ab-4fa9-941d-5b2bcf85c906")
 			(effects
@@ -9593,7 +9593,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "cdb1443a-0c24-454e-8e21-8bebe1b634c3")
 			(effects
@@ -9752,7 +9752,7 @@
 			(uuid "32a690b5-94ce-467e-9f9c-b72b08d3924e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "56ce7d61-0828-4beb-b477-ebcb06bfb01a")
 			(effects
@@ -10732,7 +10732,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
-			(at 3.048 0 360)
+			(at 3.048 0 0)
 			(layer "B.SilkS")
 			(uuid "5a3e075b-873a-4a85-98c6-ad031051ebdb")
 			(effects
@@ -10744,7 +10744,7 @@
 			)
 		)
 		(property "Value" "Bypass Regulator"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "B.Fab")
 			(uuid "12d38670-d6b8-40fd-9a81-83731cec58d7")
 			(effects
@@ -11277,7 +11277,7 @@
 		)
 	)
 	(gr_text "S\n"
-		(at 156.9974 109.1438 0)
+		(at 156.8196 109.1184 0)
 		(layer "F.SilkS")
 		(uuid "e24e1a9e-dce1-49cf-ac17-75fc1d895fc6")
 		(effects
