@@ -379,7 +379,7 @@ ALL_ASFLAGS = -mmcu=$(MCU) -I. -x assembler-with-cpp $(ASFLAGS)
 all: begin gccversion sizebefore build sizeafter end
 
 # Change the build target to build a HEX file or a library.
-build: elf hex eep lss sym extcoff
+build: elf hex eep lss sym
 #build: lib
 
 
@@ -407,7 +407,7 @@ end:
 
 # Display size of file.
 HEXSIZE = $(SIZE) --target=$(FORMAT) $(TARGET).hex
-ELFSIZE = $(SIZE) --format=avr $(TARGET).elf
+ELFSIZE = $(SIZE) --format=avr --mcu=$(MCU) $(TARGET).elf
 
 sizebefore:
 	@if test -f $(TARGET).elf; then echo; echo $(MSG_SIZE_BEFORE); $(ELFSIZE); \
