@@ -2979,7 +2979,7 @@
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U3"
-			(at 0.0055 2.479 360)
+			(at 0.0055 2.479 0)
 			(layer "F.SilkS")
 			(uuid "5a152030-1a85-4e92-bbd4-3eba5984cbcd")
 			(effects
@@ -2990,7 +2990,7 @@
 			)
 		)
 		(property "Value" "LM321"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "fc054025-6f3d-4aea-9b12-2db871ed68e7")
 			(effects
@@ -3187,7 +3187,7 @@
 			(uuid "64f80451-5a14-4712-ab60-1c7fe6610868")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6b0103f2-3469-49e0-b887-70c2d76f895e")
 			(effects
