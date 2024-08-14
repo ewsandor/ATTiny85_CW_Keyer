@@ -4696,7 +4696,7 @@
 		)
 		(uuid "867e012c-d99f-4e3f-a17b-b7c3cf0c268e")
 	)
-	(text "Solders jumpers are provided to bypass stages of the power circuit.\n\nJP1 may be soldered if a battery pack or power supply has its own power switch.\nJP2 bypasses the polarity protection MOSFET.  This bypass is not recommended to \n	protect the circuit, but may be used to reduce cost when a fixed source is used.\nJP3 may be soldered and the voltage regulator omitted when the input voltage is less \n	than the ATTiny85's max operating voltage (6V) to maximize battery usage (down to 1.8V @1MHz).\n	The voltage regulator is required for higher voltage sources (for example 9V battery or 12V radio power supply)."
+	(text "Solders jumpers are provided to bypass stages of the power circuit.\n\nJP1 may be soldered if a battery pack or power supply has its own power switch.\nJP2 bypasses the polarity protection MOSFET.  This bypass is not recommended to \n	protect the circuit, but may be used to reduce cost when a fixed source is used.\nJP3 may be soldered and the voltage regulator omitted when the input voltage is less \n	than the ATTiny85's max operating voltage (6V) to maximize battery usage (down to 1.8V @1MHz, LEDs may not light).\n	The voltage regulator is required for higher voltage sources (for example 9V battery or 12V radio power supply)."
 		(exclude_from_sim no)
 		(at 29.718 112.776 0)
 		(effects
@@ -7121,7 +7121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a00f6beb-1547-4982-84a2-baa18c694e32")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 262.255 35.56 0)
 			(effects
 				(font
@@ -7170,7 +7170,7 @@
 		(instances
 			(project ""
 				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7256,7 +7256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a25d0e63-f16a-46b8-a150-abb268871e43")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -7307,7 +7307,7 @@
 		(instances
 			(project ""
 				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8150,7 +8150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2b7b08a-5ee9-4845-8014-dbb300fc9aa8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -8201,7 +8201,7 @@
 		(instances
 			(project "K9QW_ATTiny_CW_Keyer"
 				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
