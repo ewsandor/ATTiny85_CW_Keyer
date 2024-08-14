@@ -3698,7 +3698,7 @@
 			(uuid "5a5d7a35-9faf-4573-a840-d828299ffbb6")
 		)
 		(fp_text user "K"
-			(at 1.8 1.1 90)
+			(at 1.5748 1.016 90)
 			(layer "F.SilkS")
 			(uuid "3b27990c-9f6f-4f52-bcd8-02b68bb885bb")
 			(effects
@@ -9800,7 +9800,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 2.667 0 90)
+			(at 0 -1.3462 90)
 			(layer "B.SilkS")
 			(uuid "4414082d-45b8-40e6-bb11-04a2bad66795")
 			(effects
@@ -10457,7 +10457,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 3.0122 0 90)
+			(at 0 1.7526 90)
 			(layer "B.SilkS")
 			(uuid "677e1154-f08a-4b3f-9fff-c0d24bbb9b46")
 			(effects
@@ -11532,6 +11532,15 @@
 		(free yes)
 		(net 2)
 		(uuid "f1fd86fc-4529-4f38-890a-9f19bad2d7e3")
+	)
+	(via
+		(at 150.0886 104.4448)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "febe052b-68c2-4eca-ad84-63e095259cfa")
 	)
 	(segment
 		(start 166.9136 115.661)
