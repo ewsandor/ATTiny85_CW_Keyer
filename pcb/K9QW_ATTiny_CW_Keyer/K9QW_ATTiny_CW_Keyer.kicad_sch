@@ -3642,6 +3642,12 @@
 		(uuid "63cde459-b288-4cfa-8fb1-114c552a755f")
 	)
 	(junction
+		(at 245.11 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65d985d9-932b-4a76-9ded-bf1e984d8302")
+	)
+	(junction
 		(at 176.53 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3708,6 +3714,12 @@
 		(uuid "c8c1281f-882e-4d16-b23a-57faeeb4bb68")
 	)
 	(junction
+		(at 254 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d581eb3f-2014-4f07-aa12-2a45cb610e88")
+	)
+	(junction
 		(at 59.69 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3724,12 +3736,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd6a314a-e099-44ed-9e58-8dfb4a59cdf4")
-	)
-	(junction
-		(at 245.11 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1003e15-46e0-4ac2-af84-ab95b5eb70f4")
 	)
 	(junction
 		(at 133.35 67.31)
@@ -4009,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 66.04) (xy 254 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6617ce-bead-4b03-b122-d6f260a67978")
+	)
+	(wire
+		(pts
 			(xy 71.12 68.58) (xy 74.93 68.58)
 		)
 		(stroke
@@ -4069,16 +4085,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 66.04) (xy 256.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49fd92e8-ff74-4ddf-b4ad-ef56f56d8a63")
-	)
-	(wire
-		(pts
 			(xy 104.14 86.36) (xy 104.14 87.63)
 		)
 		(stroke
@@ -4099,6 +4105,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 74.93) (xy 254 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb6dee1-efd2-4a93-a01b-3817aa836aec")
+	)
+	(wire
+		(pts
 			(xy 133.35 77.47) (xy 133.35 67.31)
 		)
 		(stroke
@@ -4116,6 +4132,16 @@
 			(type default)
 		)
 		(uuid "525a66b7-46a9-4f3a-8d79-80472d0b41e2")
+	)
+	(wire
+		(pts
+			(xy 254 66.04) (xy 270.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d126df-8787-45ac-8bac-f8b4a0fe4497")
 	)
 	(wire
 		(pts
@@ -4206,6 +4232,16 @@
 			(type default)
 		)
 		(uuid "69f39a7e-ab07-4ffe-9fc0-29d03e733d60")
+	)
+	(wire
+		(pts
+			(xy 245.11 66.04) (xy 254 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7c04a9-8c35-456f-a325-95e85d440521")
 	)
 	(wire
 		(pts
@@ -4589,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 71.12) (xy 255.27 71.12)
+			(xy 270.51 71.12) (xy 269.24 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6203,7 +6239,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 71.12 270)
+		(at 269.24 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6211,8 +6247,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d534919-e7dd-49aa-bd53-2fc6d0924404")
-		(property "Reference" "#PWR023"
-			(at 248.92 71.12 0)
+		(property "Reference" "#PWR025"
+			(at 262.89 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 71.1199 90)
+			(at 265.43 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 71.12 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 71.12 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 71.12 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6298,7 @@
 		(instances
 			(project "K9QW_ATTiny_CW_Keyer"
 				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8154,6 +8190,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 254 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f9d3d1-f405-427e-add3-bb693402aad9")
+		(property "Reference" "#PWR023"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42135f9e-606b-4d1e-b3ef-a0b1f2ee8c46")
+		)
+		(instances
+			(project "K9QW_ATTiny_CW_Keyer"
+				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 160.02 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8418,6 +8520,76 @@
 			(project "K9QW_ATTiny_CW_Keyer"
 				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e6238a-1eb4-4615-96d3-5e90040b4c52")
+		(property "Reference" "R10"
+			(at 256.54 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 256.54 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 252.222 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e65b63-c2f1-443a-8a15-1de2822e3108")
+		)
+		(pin "2"
+			(uuid "52853df6-4f3c-497d-a344-74d0079e0769")
+		)
+		(instances
+			(project "K9QW_ATTiny_CW_Keyer"
+				(path "/aef77cdf-c6ea-4cd5-9717-5394839cbff2"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8765,7 +8937,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 259.08 68.58 0)
+		(at 273.05 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8774,7 +8946,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2aff257-9d72-4836-bf14-b011d7e0a13e")
 		(property "Reference" "BZ1"
-			(at 262.89 67.3099 0)
+			(at 276.86 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +8955,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 262.89 69.8499 0)
+			(at 276.86 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8964,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-			(at 258.445 66.04 90)
+			(at 272.415 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 258.445 66.04 90)
+			(at 272.415 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,7 +8982,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 259.08 68.58 0)
+			(at 273.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
