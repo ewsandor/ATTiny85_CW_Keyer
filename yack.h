@@ -86,7 +86,7 @@
 
 // Power save mode
 #define     POWERSAVE       // Comment this line if no power save mode required
-#define     PSTIME          1 // 1 seconds until automatic powerdown
+#define     PSTIME          20 // 20 seconds until automatic powerdown
 #define     PWRWAKE         ((1<<PCINT3) | (1<<PCINT4) | (1<<PCINT2)) // Dit, Dah or Command wakes us up..
 
 // These values limit the speed that the keyer can be set to
