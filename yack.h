@@ -121,9 +121,9 @@
                                                      // a given frequency
 
 // Default sidetone frequency
-#define		DEFFREQ			800     // Default sidetone frequency
+#define		DEFFREQ			600     // Default sidetone frequency
 #define		MAXFREQ			1500    // Maximum frequency
-#define		MINFREQ			400     // Minimum frequenc
+#define		MINFREQ			400     // Minimum frequency
 
 #define		MAXCTC			CTCVAL(MAXFREQ) // CTC values for the above three values
 #define		MINCTC			CTCVAL(MINFREQ) 
