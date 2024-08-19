@@ -4983,6 +4983,16 @@
 		)
 		(uuid "feac26fd-4c91-47bc-a347-3f28b32bb5d5")
 	)
+	(text "R10 is recommended by buzzer datasheet, but does not \nappear to make much difference at sidetone frequencies.\nOmit to save a little power, pad provided to \npotentially help with any distortion or other issues."
+		(exclude_from_sim no)
+		(at 256.286 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "247c2bdc-cd0b-4b92-9afd-b22e6c07658f")
+	)
 	(text "Optional RC-LPF (~1kHz) to filter squarewave \nbefore driving an external audio circuit.\nCut JP4 if LPF is populated.  \nDo no populate LPF and do not cut JP4 if \ndriving a simple piezo disc speaker."
 		(exclude_from_sim no)
 		(at 232.156 91.694 0)
@@ -5556,7 +5566,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0df31724-27d6-4dc4-bfe0-e8ee260be293")
 		(property "Reference" "D3"
@@ -6874,7 +6884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "470R"
 			(at 190.5 120.6499 0)
 			(effects
 				(font
@@ -8397,7 +8407,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "be010696-4886-4c33-b07a-db8543c5bd47")
 		(property "Reference" "R8"
@@ -8532,7 +8542,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c0e6238a-1eb4-4615-96d3-5e90040b4c52")
 		(property "Reference" "R10"
@@ -9079,7 +9089,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d4e82560-3671-40fc-b4a2-2a848d466d72")
 		(property "Reference" "Q4"
@@ -9697,7 +9707,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fe0c8777-cd16-4d48-96bb-610a70a7114d")
 		(property "Reference" "R9"
@@ -9709,7 +9719,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "470R"
 			(at 241.3 120.6499 0)
 			(effects
 				(font
