@@ -26,8 +26,8 @@
 #define		KEYDDR			DDRB
 #define		KEYPORT			PORTB
 #define		KEYINP			PINB
-#define		DITPIN			3
-#define		DAHPIN			4
+#define		DITPIN			4
+#define		DAHPIN			3
 
 // Definition of where the transceiver keyer line is connected
 #define		OUTDDR			DDRB
@@ -121,7 +121,7 @@
                                                      // a given frequency
 
 // Default sidetone frequency
-#define		DEFFREQ			600     // Default sidetone frequency
+#define		DEFFREQ			800     // Default sidetone frequency
 #define		MAXFREQ			1500    // Maximum frequency
 #define		MINFREQ			400     // Minimum frequency
 
